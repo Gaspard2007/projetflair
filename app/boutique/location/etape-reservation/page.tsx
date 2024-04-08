@@ -1,6 +1,7 @@
 'use client'
 import CalendrierEtapeReservation from '@/components/calendrier-panier'
 import { NextPage } from 'next'
+import Link from 'next/link'
 
 const EtapeReservation: NextPage= () => {
     return(
@@ -13,7 +14,8 @@ const EtapeReservation: NextPage= () => {
         </div>
         <div>
           
-          <CalendrierEtapeReservation/>
+          <h1>Soucis de calendrier</h1>
+          <Link href={'/boutique/location/panier-location'}><button></button></Link>
 
       
         </div>
