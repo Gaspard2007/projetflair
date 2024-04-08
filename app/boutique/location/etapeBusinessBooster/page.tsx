@@ -32,7 +32,7 @@ const etapeBusinessBoosterLocation:NextPage=()=>{
             <PropositionBusinessBooster/>
             </div>
             <br />
-            <Link href={'/boutique/location/etape-reservation'}><button>Continuer</button></Link>
+            <Link href={'/boutique/location/etape-validation-de-commande'}><button>Continuer</button></Link>
             
         </div>
         

@@ -15,7 +15,7 @@ const EtapeReservation: NextPage= () => {
         <div>
           
           <h1>Soucis de calendrier</h1>
-          <Link href={'/boutique/location/panier-location'}><button className='text-lg'>Passer à la suite</button></Link>
+          <Link href={'/boutique/location/etapeBusinessBooster'}><button className='text-lg'>Passer à la suite</button></Link>
 
       
         </div>
