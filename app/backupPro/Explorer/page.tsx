@@ -7,11 +7,12 @@ import Link from 'next/link'
 const ExplorerLesPro = () => {
   return (
     <div>
-    <div>
-      <img style={{ width: '100%', height: '70%' }} src="/banneer-Explorer.svg" alt="" />
+        <div>
+      <img style={{ width: '100%', marginBottom:'-4%', marginTop:'-4%'}} src="/banneer-Explorer.svg" alt="" />
     </div>
     <div>
-      <div className='' style={{ background: '#EEEEEE', width:'100%' }}>
+    
+      <div className='' style={{ background: '#EEEEEE', width:'100%', height:'100%' }}>
         <h2 style={{ paddingTop: '30px' }} className='flex justify-center items-center'>Qu'avez-vous besoin ?</h2>
         <span className='flex justify-center'>Trouvez les services professionnels à proximité</span>
         <br />
@@ -79,9 +80,10 @@ const ExplorerLesPro = () => {
               <h4 className='flex justify-center'>Bien être</h4>
             </div>
           </div>
-        </div>
+       
         <br />
       </div>
+    </div>
     </div>
     <div>
       <h1 className='flex justify-center'>Des professionnel à votre disposition</h1>
@@ -104,14 +106,13 @@ const ExplorerLesPro = () => {
       </div>
       <span className='flex justify-center'>Découvrez l'abonnement qui s'aligne parfaitement avec votre profession</span>
    <br />
-   <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr' }}>
-<div style={{ display: 'flex', justifyContent: 'center' }}>
-  <CardAbonnementMensuel />
-</div>
-<div style={{ display: 'flex', justifyContent: 'center' }}>
-  <CardAbonnementMensuel/>
-</div>
-</div>
+   <div className='flex  justify-center' style={{marginTop:'3%'}}>
+   
+    <CardAbonnementMensuel/>
+    <div style={{marginLeft:'10%'}}>
+    <CardAbonnementMensuel/>
+    </div>
+   </div>
 
      </div>
     </div>
