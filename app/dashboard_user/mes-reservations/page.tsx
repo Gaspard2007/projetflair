@@ -9,23 +9,12 @@ import RaisonRDVannule from "@/components/raison-rdv-annule";
 import SupprimeRéservation from "@/components/supprimer-reservation";
 
 
-type MesReservationsProps = {
-  propBackgroundColor?: CSSProperties["backgroundColor"];
-};
-
-const MesReservations: NextPage<MesReservationsProps> = ({
-  propBackgroundColor,
-}) => {
-  const logo_imageStyle: CSSProperties = useMemo(() => {
-    return {
-      backgroundColor: propBackgroundColor,
-    };
-  }, [propBackgroundColor]);
+const MesReservations: NextPage = ()=>{
 
   return (
   <div className="flex flex-col items-start justify-start pt-3.5 px-0 pb-0 box-border min-w-[830px] max-w-full mq1050:min-w-full">
     <div className="flex flex-row" style={{marginTop:'25px'}}>
-      <div className="w-[227px] rounded-lg box-border overflow-hidden shrink-0 flex flex-col items-center justify-start pt-[22px] px-1 pb-[21px] gap-[10px_0px] min-w-[227px] text-center text-lg text-black font-roboto border-[2px] border-solid border-whitesmoke-300 mq1050:pt-5 mq1050:pb-5 mq1050:box-border mq750:flex-1"style={logo_imageStyle}>
+      <div className="w-[227px] rounded-lg box-border overflow-hidden shrink-0 flex flex-col items-center justify-start pt-[22px] px-1 pb-[21px] gap-[10px_0px] min-w-[227px] text-center text-lg text-black font-roboto border-[2px] border-solid border-whitesmoke-300 mq1050:pt-5 mq1050:pb-5 mq1050:box-border mq750:flex-1">
         <div className="w-[88px] flex flex-row items-start justify-start pt-0 px-0 pb-2.5 box-border">
           <button className="cursor-pointer [border:none] p-[9px] bg-gray-600 flex-1 rounded overflow-hidden flex flex-row items-center justify-center hover:bg-darkslategray-400">
             <div className="relative text-smi leading-[13px] font-roboto text-black text-center">
