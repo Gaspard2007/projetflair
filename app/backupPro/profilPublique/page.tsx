@@ -34,8 +34,8 @@ const ProfilPublic = () => {
       <br />
       <br />
       <div className="flex justify-center">
-      <img src="/imageComptePublique.svg" alt="" />
-      <div style={{marginLeft:'1%'}} className="flex flex-col"><img src="/imageComptePublique2.svg" alt="" /><img style={{marginTop:'3%'}} src="/imageComptePublique3.svg" alt="" /></div>
+      <img src="/imageComptePublique.svg" alt="" style={{width:'100%'}}/>
+      <div style={{marginLeft:'1%', width:'100%'}} className="flex flex-col"><img  src="/imageComptePublique2.svg" alt="" /><img style={{marginTop:'3%', width:'100%'}} src="/imageComptePublique3.svg" alt="" /></div>
       </div>
       <div style={{padding:'5%'}}>
              <div className="flex flex-row items-center">
