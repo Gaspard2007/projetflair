@@ -31,7 +31,7 @@ const PropositionLocation: React.FC = () => {
                 </div>
                 <br />
                 <div className='flex items-center justify-end'>
-                    <Link href={'/boutique/businessBooster/BoosterChoice'}><button style={{padding:'11px', width:'80%'}} className='text-white text-lg cursor-pointer bg-black'>JE RÉSERVE</button></Link>
+                    <Link href={'/boutique/businessBooster/BoosterChoice'}><button style={{padding:'11px', width:'80%'}} className='text-white text-lg cursor-pointer bg-black flex'>JE RÉSERVE</button></Link>
                 </div>
             </div>
             </div>
