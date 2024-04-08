@@ -23,7 +23,7 @@ const PropositionLocation: React.FC = () => {
                     <p>En deux heures, nous explorerons ensemble vos passions, vos compétences et déterminerons la voie qui vous correspond le mieux</p>            
                 </div>
                 <div className='flex flex-col items-end'>
-                    <button onClick={toggleInput} style={{padding:'11px', width:'80%'}} className='flex items-center text-white text-lg cursor-pointer bg-black'>
+                    <button onClick={toggleInput} style={{padding:'11px', width:'70%'}} className='flex items-center justify-end text-white text-lg cursor-pointer bg-black'>
                         <img src="/calendarWhite.svg" style={{marginRight:'20px'}} alt="" />
                         CHOISIR UNE DATE
                     </button>
