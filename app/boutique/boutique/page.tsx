@@ -12,7 +12,7 @@ const Boutique: NextPage = () => {
   return (
     <div className="">
       <div>
-        <img style={{width:'100%'}} src="/Header.png" alt="" />
+        <img style={{width:'100%'}} src="/Header.svg" alt="" />
       </div>
       <br id="posteALouer" />
       

@@ -24,7 +24,7 @@ const ArchivePro:NextPage = () => {
     };
 
     return (
-        <div style={{ display: 'flex', flexDirection: 'column' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', marginTop:'-4%' }}>
             <div style={{ width: '100%' }}>
                 <img className='' style={{ width: '100%' }} src="/banneer-ArchivePro.svg" alt="" />
             </div>
@@ -34,21 +34,31 @@ const ArchivePro:NextPage = () => {
                     <div style={{background:'#F5F5F5', paddingBottom:'9%'}} className='rounded flex flex-col  items-start'>
                         <div style={{marginLeft:'4%'}}>
                         <h1>Rechercher</h1>
-                        <input className='text-lg text-gray' style={{ border: '1px solid gray', outline: 'none', padding: '11px', width:'120%' }} placeholder='Que recherchez-vous ?' type="text" />
+                        <input className='text-lg text-gray' style={{ border: '1px solid gray', outline: 'none', padding: '11px', width:'100%' }} placeholder='Que recherchez-vous ?' type="text" />
                     </div>
                     </div>
                     <br />
                     <div style={{background:'#F5F5F5', paddingBottom:'9%'}} className='rounded flex flex-col  items-start'>
                         <div style={{marginLeft:'4%'}}>
                         <h1>Lieu</h1>
-                        <input className='text-lg text-gray' style={{ border: '1px solid gray', outline: 'none', padding: '11px', width:'120%' }} placeholder='Indiquer un lieu' type="text" />
+                        <input className='text-lg text-gray' style={{ border: '1px solid gray', outline: 'none', padding: '11px', width:'100%' }} placeholder='Indiquer un lieu' type="text" />
                     </div>
                     </div>
                     <br />
                     <div style={{background:'#F5F5F5', paddingBottom:'9%'}} className='rounded flex flex-col  items-start'>
                         <div style={{marginLeft:'4%'}}>
                         <h1>Categorie de service</h1>
-                        <select name="Coiffure" id=""></select>
+                        <select className='text-lg' name="selectedCategory" style={{ border: '1px solid gray', outline: 'none', padding: '11px', width:'120%' }} >
+                                    <option value="coiffure">Coiffure</option>
+                                    <option value="styliste-capillaire">Styliste capillaire</option>
+                                    <option value="esthéticienne">Esthéticienne</option>
+                                    <option value="maquilleur">Maquilleur</option>
+                                    <option value="manucure">Manucure</option>
+                                    <option value="Masseur">Masseur</option>
+                                    <option value="epilation">Épilation</option>
+                                    <option value="coiffure">Bien être</option>
+                                    
+                                </select>
                     </div>
                     </div>
                     
