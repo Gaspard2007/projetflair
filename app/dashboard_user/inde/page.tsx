@@ -1,5 +1,4 @@
 'use client'
-import MenuParticulier from "@/components/menu-particulier";
 import type { NextPage } from "next";
 import Link from 'next/link'
 

@@ -1,7 +1,6 @@
 
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { useRouter } from "next/router";
 import "./globals.css";
 import MenuDashboardParticulier from "@/components/menu-dashboard-particulier";
 import MenuParticulier from "@/components/menu-particulier";

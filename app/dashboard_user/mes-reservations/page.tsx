@@ -1,9 +1,9 @@
 'use client'
 import type { NextPage } from "next";
-import { useMemo, type CSSProperties } from "react";
+
 import React from 'react';
 import StarRating from "@/components/star-rating";
-import { Button } from 'antd';
+
 import Link from 'next/link'
 import RaisonRDVannule from "@/components/raison-rdv-annule";
 import SupprimeRéservation from "@/components/supprimer-reservation";

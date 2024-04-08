@@ -1,7 +1,7 @@
 'use client'
 import SupprimeCompte from "@/components/suppression-compte";
 import type { NextPage } from "next";
-import Link from 'next/link'
+
 
 
 const SuppressionCompte: NextPage = () => {

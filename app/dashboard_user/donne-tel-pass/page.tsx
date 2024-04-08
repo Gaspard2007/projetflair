@@ -1,5 +1,4 @@
 import type { NextPage } from "next";
-import { useMemo, type CSSProperties } from "react";
 import Changement_telephone from "@/components/changement-tel";
 import ChangementMp from "@/components/changementmp";
 const Scurit: NextPage = () => {
