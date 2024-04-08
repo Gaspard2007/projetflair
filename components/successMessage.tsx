@@ -35,7 +35,7 @@ const SuccessMessage: React.FC = () => {
     <>
       {contextHolder}
       <Space>
-        <button className='bg-black text-white text-lg cursor-pointer' style={{padding:'11px'}} onClick={success}>Success</button>
+        <button className='bg-black text-white text-lg cursor-pointer flex justify-end' style={{padding:'11px'}} onClick={success}>Valider</button>
       </Space>
     </>
   );
