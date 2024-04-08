@@ -10,7 +10,7 @@ const PropositionLocation: React.FC = () => {
     return (
         <div className='flex ' style={{background:'#DEDEDE'}}>
             <img style={{width:'80%'}} src="/imagepourshop.png" alt="" />
-            <div className='flex flex-col justify-between'>
+            <div className='flex flex-col justify-between' style={{padding:'5%'}}>
                 <div>
                     <h3>BUSINESS BOOSTER 1H POUR CHANGER DE VIE</h3>
                     <div style={{fontWeight:'700px'}}>
