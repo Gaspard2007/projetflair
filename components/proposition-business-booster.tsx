@@ -9,8 +9,8 @@ const PropositionLocation: React.FC = () => {
 
     return (
         <div className='flex ' style={{background:'#DEDEDE'}}>
-            <img style={{height:'80%', width:'80%'}} src="/imagepourshop.png" alt="" />
-            <div className='flex flex-col justify-between' style={{margin:'30px'}}>
+            <img style={{width:'80%'}} src="/imagepourshop.png" alt="" />
+            <div className='flex flex-col justify-between'>
                 <div>
                     <h3>BUSINESS BOOSTER 1H POUR CHANGER DE VIE</h3>
                     <div style={{fontWeight:'700px'}}>
