@@ -10,7 +10,8 @@ const PropositionLocation: React.FC = () => {
     return (
         <div className='flex ' style={{background:'#DEDEDE'}}>
             <img style={{width:'80%'}} src="/imagepourshop.png" alt="" />
-            <div className='flex flex-col justify-between' style={{padding:'5%'}}>
+            <div style={{padding:'20%'}}>
+            <div className='flex flex-col justify-between'>
                 <div>
                     <h3>BUSINESS BOOSTER 1H POUR CHANGER DE VIE</h3>
                     <div style={{fontWeight:'700px'}}>
@@ -31,6 +32,7 @@ const PropositionLocation: React.FC = () => {
                 <div className='flex items-center justify-end'>
                     <button style={{padding:'11px', width:'50%'}} className='text-white text-lg cursor-pointer bg-black'>JE RÉSERVE</button>
                 </div>
+            </div>
             </div>
         </div>
     );
