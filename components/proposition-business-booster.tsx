@@ -8,7 +8,7 @@ const PropositionLocation: React.FC = () => {
     };
 
     return (
-        <div className='w-[85%] flex ' style={{background:'#DEDEDE'}}>
+        <div className='flex ' style={{background:'#DEDEDE'}}>
             <img style={{height:'80%', width:'80%'}} src="/imagepourshop.png" alt="" />
             <div className='flex flex-col justify-between' style={{margin:'30px'}}>
                 <div>
@@ -20,7 +20,17 @@ const PropositionLocation: React.FC = () => {
                     <p>Notre session de coaching intensif est conçue pour vous orienter vers la formation en esthétique la plus adaptée à vos ambitions.</p>
                     <p>En deux heures, nous explorerons ensemble vos passions, vos compétences et déterminerons la voie qui vous correspond le mieux</p>            
                 </div>
-                
+                <div className='flex flex-col items-end'>
+                    <button onClick={toggleInput} style={{padding:'11px', width:'50%'}} className='flex items-center text-white text-lg cursor-pointer bg-black'>
+                        <img src="/calendar.svg" style={{marginRight:'20px'}} alt="" />
+                        CHOISIR UNE DATE
+                    </button>
+                    {showInput && <input style={{width:'50%'}} type="date" />}
+                </div>
+                <br />
+                <div className='flex items-center justify-end'>
+                    <button style={{padding:'11px', width:'50%'}} className='text-white text-lg cursor-pointer bg-black'>JE RÉSERVE</button>
+                </div>
             </div>
         </div>
     );
