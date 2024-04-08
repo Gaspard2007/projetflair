@@ -60,7 +60,7 @@ import Link from 'next/link';
         title="Action"
         key="action"
         render={(text, record: DataType) => (
-          <Link href={''}><button className='bg-black text-white text-sm rounded cursor-pointer' style={{padding:'9px'}}  onClick={() => handleVoir(record)}>
+          <Link href={'/boutique/location/commande'}><button className='bg-black text-white text-sm rounded cursor-pointer' style={{padding:'9px'}}  onClick={() => handleVoir(record)}>
           Voir
         </button></Link>
         )}
