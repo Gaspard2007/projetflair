@@ -9,12 +9,11 @@ import RaisonRDVannule from "@/components/raison-rdv-annule";
 import SupprimeRéservation from "@/components/supprimer-reservation";
 
 
-export type data = {
-propBackgroundColor?: CSSProperties["backgroundColor"];
+type MesReservationsProps = {
+  propBackgroundColor?: CSSProperties["backgroundColor"];
 };
 
-const MesRservations: NextPage<data> = ({
- 
+const MesReservations: NextPage<MesReservationsProps> = ({
   propBackgroundColor,
 }) => {
   const logo_imageStyle: CSSProperties = useMemo(() => {
@@ -137,4 +136,4 @@ const MesRservations: NextPage<data> = ({
   </div>
   )
 }
-export default MesRservations;
+export default MesReservations;
