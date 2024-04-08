@@ -4,7 +4,7 @@ import PropositionLocation from "@/components/proposition-location"
 import PanierDeLaFORMATION from "@/components/panier-formation"
 const PanierFormation:NextPage = () => {
   return (
-    <div>
+    <div style={{padding:'10%'}}>
         <div className="flex justify-center"><img src="/2023-12-cropped-1.png" alt="" /></div>
         <h1 className="flex justify-center">Panier</h1>
         <br />
