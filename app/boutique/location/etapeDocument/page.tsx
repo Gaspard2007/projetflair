@@ -25,7 +25,7 @@ const EtapeDocument:NextPage = () => {
                 <div style={{border: '2px dashed', marginLeft:'2%', width:'49%', paddingTop:'50px', paddingBottom:'50px', display: 'flex', alignItems: 'center'}}>
     <div className="flex flex-col justify-center items-center">
         <img style={{width:'50px', height:'50px'}} src="/carte-didentite-2.png" alt="" />
-        <h4>Déposer les copies de votre CIN / Passeport / Carte de séjour recto/verso ici</h4>
+        <h4 className="flex text-center">Déposer les copies de votre CIN / Passeport / Carte de séjour recto/verso ici</h4>
         <h4>Fichier accepté: JPEG; PNG; PDF</h4>
         <input type="file" name="" id="" />
     </div>
