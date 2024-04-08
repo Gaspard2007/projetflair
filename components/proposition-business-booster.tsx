@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React, { useState } from 'react';
 
-const PropositionLocation: React.FC = () => {
+const PropositionBusinessBooster: React.FC = () => {
     const [showInput, setShowInput] = useState(false);
 
     const toggleInput = () => {
@@ -39,4 +39,4 @@ const PropositionLocation: React.FC = () => {
     );
 }
 
-export default PropositionLocation;
+export default PropositionBusinessBooster;
