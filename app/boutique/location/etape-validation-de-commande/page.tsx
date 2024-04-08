@@ -117,7 +117,7 @@ const EtapeValidationCommande:NextPage = () => {
     <br />
     <span>EMAIL</span>
 </div>
-<Link className="flex justify-end" href={'/boutique/location/etapeDocument'}><button className=" outline-none bg-black text-xl text-white" style={{paddingLeft:'20px', paddingRight:'20px', paddingTop:'12px',paddingBottom:'12px'}}>Continuer</button></Link>
+<Link className="flex justify-end no-underline outline-none" href={'/boutique/location/etapeDocument'}><button className=" outline-none bg-black text-xl text-white" style={{paddingLeft:'20px', paddingRight:'20px', paddingTop:'12px',paddingBottom:'12px'}}>Continuer</button></Link>
           </div>
         </div>
 
