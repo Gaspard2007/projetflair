@@ -1,18 +1,23 @@
 'use client'
-import { Switch } from "antd";
-import { NextPage } from "next";
-import { useState } from "react"; 
+import { useState, useEffect } from "react";
 import { EditorState } from "draft-js";
-
 import { Editor } from "react-draft-wysiwyg";
 import "react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
+import { Switch } from "antd";
 
-const AjouterUnService: NextPage = () => {
-    const [description, setDescription] = useState(EditorState.createEmpty()); // Définissez l'état local pour l'éditeur
+const AjouterUnService = () => {
+    const [description, setDescription] = useState<EditorState>(EditorState.createEmpty());
 
     const onEditorStateChange = (editorState: EditorState) => {
-        setDescription(editorState); // Mettez à jour l'état local lorsque l'éditeur change
+        setDescription(editorState);
     };
+
+    useEffect(() => {
+        // Code à exécuter après le rendu initial (côté client)
+        // Initialisation de l'éditeur ou toute autre logique dépendant de `window`
+        // Assurez-vous d'importer les scripts ou d'effectuer des actions spécifiques au client ici
+    }, []); // Le tableau vide [] signifie que useEffect ne s'exécute qu'une seule fois après le rendu initial
+
 
     return (
         <div style={{ paddingRight: "5%" }}>
@@ -65,23 +70,23 @@ const AjouterUnService: NextPage = () => {
                 <div>
                     <label>Disponibilité</label>
                     <select name="availability" id="availability" className="text-lg rounded outline-none" style={{ width: "100%", padding: "11px", border: "solid 2px #EAEAEA", marginTop: "2%" }}>
-                        {/* Ajoutez les options pour la disponibilité */}
+                        
                     </select>
                 </div>
             </div>
-            <div style={{ marginTop: "20px" }}>
-                <label>Paragraphe</label>
+            <label>Paragraphe</label>
                 <br />
                 <br />
-                <Editor
-                    editorState={description}
-                    toolbarClassName="toolbarClassName"
-                    wrapperClassName="wrapperClassName"
-                    editorClassName="editorClassName"
-                    onEditorStateChange={onEditorStateChange}
-                />
+                    <Editor
+                        editorState={description}
+                        toolbarClassName="toolbarClassName"
+                        wrapperClassName="wrapperClassName"
+                        editorClassName="editorClassName"
+                        onEditorStateChange={onEditorStateChange}
+                    />
+                
             </div>
-        </div>
+      
     );
 };
 
