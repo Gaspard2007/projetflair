@@ -1,3 +1,4 @@
+'use client'
 import { useState } from "react";
 import { EditorState } from "draft-js";
 import dynamic from "next/dynamic";
