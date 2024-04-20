@@ -31,8 +31,8 @@ const MenuParticulier: NextPage = () => {
         />
       </button></Link>
       <div className="w-[583px] flex flex-row items-start justify-start py-5 pr-1.5 pl-0 box-border gap-[0px_30px] max-w-full mq1050:hidden">
-        <div className="relative font-semibold">LOCATION</div>
-        <div className="relative font-semibold">FORMATION</div>
+        <Link className="no-underline" href={'/boutique/boutique/#location'}><div className="text-black relative font-semibold">LOCATION</div></Link>
+        <Link className="no-underline" href={'/boutique/boutique/#formation'}><div className="text-black relative font-semibold">FORMATION</div></Link>
         <div className="flex-1 relative font-semibold whitespace-nowrap">
           GESTION PLANNING
         </div>
@@ -62,7 +62,7 @@ const MenuParticulier: NextPage = () => {
 
                 /></Popover> 
               <div className="absolute top-[0px] left-[20px] rounded-[50%] bg-red-200 w-2.5 h-2.5 z-[2]" />
-              <b className="absolute top-[3.4px] left-[24.2px] inline-block w-[3px] h-[5px] z-[3]">
+              <b className="absolute top-[2px] left-[24px] inline-block w-[3px] h-[5px] z-[3]">
                 2
               </b>
             </div>
@@ -75,7 +75,7 @@ const MenuParticulier: NextPage = () => {
                 src="/bell.svg"
               /></Popover>
               <div className="absolute top-[0px] left-[20px] rounded-[50%] bg-red-200 w-2.5 h-2.5 z-[2]" />
-              <b className="absolute top-[3.4px] left-[24.2px] inline-block w-[3px] h-[5px] z-[3]">
+              <b className="absolute top-[2px] left-[24px] inline-block w-[3px] h-[5px] z-[3]">
                 3
               </b>
             </div>

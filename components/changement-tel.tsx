@@ -20,7 +20,7 @@ const Changement_telephone: React.FC = () => {
 
   return (
     <>
-    <button className=" cursor-pointer flex justify-end items-center text-lg rounded bg-gray-150" style={{padding:'11px',marginTop:'15px', marginLeft:'260px', marginRight:'10px'}} onClick={showModal}>Modifier</button>
+    <button className=" cursor-pointer flex justify-end items-center text-lg rounded" style={{padding:'11px',marginTop:'15px', marginLeft:'260px', marginRight:'10px', background:'#EAEAEA'}} onClick={showModal}>Modifier</button>
       <Modal footer={null} open={isModalOpen}>
         <div className="modal-content">
           <h2>Modifier le numéro de téléphone</h2>

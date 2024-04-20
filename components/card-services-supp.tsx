@@ -24,7 +24,7 @@ const CardServiceSupp: React.FC = () => (
       <h1>10€/jours</h1>
     </div>
  
-      <Link href='/etape-reservation'><button  className='text-xl text-white bg-black cursor-pointer' style={{width:300, margin:'-25px', padding:'25px'}}>Je réserve</button></Link>
+      <Link href='/boutique/formation/etapePanier'><button  className='text-xl text-white bg-black cursor-pointer' style={{width:300, margin:'-25px', padding:'25px'}}>Je réserve</button></Link>
 
     </Card>
   );

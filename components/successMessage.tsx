@@ -8,7 +8,7 @@ const SuccessMessage: React.FC = () => {
   const success = () => {
     messageApi.open({
       type: 'success',
-      content: 'Félicitation, votre achat a bien été effectué 🎉 Merci de votre confiance 💪 Vous allez être redirigé',
+      content: 'Félicitation, votre achat a bien été effectué 🎉 Merci de votre confiance 💪 Vous allez être redirigé vers la page d accueil',
       duration: 4,
     });
     // Ajouter un délai de 5 secondes avant la redirection

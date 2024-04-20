@@ -21,7 +21,7 @@ const SupprimeRéservation: React.FC = () => {
 
   return (
     <>
-    <Button type="text" block style={{ backgroundColor: 'black', color: 'white', width:'100px', marginLeft:'15px'}} onClick={showModal}>Supprimer</Button>
+     <button className='rounded text-base' onClick={showModal} style={{ padding:'9px', paddingLeft:'12px', paddingRight:'12px', color: 'white', backgroundColor:'#000', marginLeft:'15%', marginRight:'20px' }}>Supprimer</button>
       <Modal footer={null} open={isModalOpen}>
         <div>
             <h2>Supprimer cette réservation </h2>

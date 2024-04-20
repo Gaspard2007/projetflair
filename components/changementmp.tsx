@@ -19,7 +19,7 @@ const ChangementMp: React.FC = () => {
 
   return (
     <>
-<button className=" cursor-pointer flex justify-end items-center text-lg rounded bg-gray-150" style={{padding:'11px',marginTop:'15px', marginLeft:'200px'}} onClick={showModal}>Changer le mot de passe</button>
+<button className=" cursor-pointer flex justify-end items-center text-lg rounded " style={{padding:'11px',marginTop:'15px', marginLeft:'200px', backgroundColor:'#EAEAEA'}} onClick={showModal}>Changer le mot de passe</button>
       <Modal footer={null} open={isModalOpen}>
         <div className="modal-content">
           <h2>Changer le mot de passe</h2>

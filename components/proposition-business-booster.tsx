@@ -1,7 +1,9 @@
+'use client'
+import { NextPage } from 'next';
 import Link from 'next/link';
 import React, { useState } from 'react';
 
-const PropositionBusinessBooster: React.FC = () => {
+const PropositionBusinessBooster:NextPage =() => {
     const [showInput, setShowInput] = useState(false);
 
     const toggleInput = () => {
@@ -10,7 +12,7 @@ const PropositionBusinessBooster: React.FC = () => {
 
     return (
         <div className='flex ' style={{background:'#DEDEDE'}}>
-            <img style={{width:'80%'}} src="/imagepourshop.png" alt="" />
+            <img style={{width:'60%'}} src="/imagepourshop.svg" alt="" />
             <div style={{padding:'5%'}}>
             <div className='flex flex-col justify-between'>
                 <div>
@@ -22,16 +24,21 @@ const PropositionBusinessBooster: React.FC = () => {
                     <p>Notre session de coaching intensif est conçue pour vous orienter vers la formation en esthétique la plus adaptée à vos ambitions.</p>
                     <p>En deux heures, nous explorerons ensemble vos passions, vos compétences et déterminerons la voie qui vous correspond le mieux</p>            
                 </div>
-                <div className='flex flex-col items-end'>
-                    <button onClick={toggleInput} style={{padding:'11px', width:'50%'}} className='flex items-center justify-end text-white text-lg cursor-pointer bg-black'>
+                <br />
+                <br />
+                
+                <div>
+                <div className='flex flex-col items-end justify-end'>
+                    <button onClick={toggleInput} style={{padding:'11px', width:'250px'}} className='flex items-center justify-end text-white text-lg cursor-pointer bg-black'>
                         <img src="/calendarWhite.svg" style={{marginRight:'20px'}} alt="" />
                         CHOISIR UNE DATE
                     </button>
-                    {showInput && <input style={{width:'50%'}} type="date" />}
+                    {showInput && <input style={{width:'249px'}} type="date" />}
                 </div>
                 <br />
                 <div className='flex items-center justify-end'>
-                    <Link href={"/g"}><button style={{padding:'11px', width:'80%'}} className='text-white text-lg cursor-pointer bg-black flex justify-end'>JE RÉSERVE</button></Link>
+                    <Link className='no-underline' href={'/boutique/businessBooster/etapePanier'}><button style={{padding:'11px', width:'250px'}} className='text-white text-lg cursor-pointer bg-black flex justify-center'>JE RÉSERVE</button></Link>
+                </div>
                 </div>
             </div>
             </div>
@@ -39,4 +46,4 @@ const PropositionBusinessBooster: React.FC = () => {
     );
 }
 
-export default PropositionBusinessBooster;
+export default PropositionBusinessBooster

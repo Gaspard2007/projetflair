@@ -71,7 +71,7 @@ function MenuDashboardParticulier() {
                 </div>
                 <br />
                 <div className={selectedCategory === 'notif' ? 'bg-gray-200 w-[160px] relative leading-[30.6px] inline-block z-[1]' : 'w-[160px] relative leading-[30.6px] inline-block z-[1]'}>
-                  <Link className={selectedCategory === 'notif' ? 'text-white no-underline' : 'text-gray-200 no-underline'} href={'/dashboard_user/parametre-notification'} onClick={() => handleCategorySelect('notif')}>Notification</Link>
+                  <Link className={selectedCategory === 'notif' ? 'text-white no-underline' : 'text-gray-200 no-underline'} href={'/dashboard_user/Notifications'} onClick={() => handleCategorySelect('notif')}>Notification</Link>
                 </div>
                 <br />
                 <div className={selectedCategory === 'suppressionCompte' ? 'bg-gray-200 w-[160px] relative leading-[30.6px] inline-block z-[1]' : 'w-[160px] relative leading-[30.6px] inline-block z-[1]'}>

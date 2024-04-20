@@ -21,7 +21,7 @@ const RaisonRDVannule: React.FC = () => {
 
   return (
     <>
-    <Button className='bg-gray-200' onClick={showModal} type="text" block style={{ color: 'black', width:'80px' }}>Raison</Button>
+    <button className='rounded text-base' onClick={showModal} style={{ padding:'9px', paddingLeft:'12px', paddingRight:'12px', color: 'black', backgroundColor:'#EAEAEA' }}>Raison</button>
       <Modal footer={null} open={isModalOpen}>
         <div>
             <h2>Cette réservation a été annulée</h2>

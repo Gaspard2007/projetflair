@@ -14,6 +14,7 @@ const content = (
 
 
 const CardProfessionnel: React.FC = () => (
+  <div style={{margin:'5px'}}>
     <Card
     style={{ width: 300 }}
     cover={
@@ -38,6 +39,7 @@ const CardProfessionnel: React.FC = () => (
 
     
     </Card>
+    </div>
   );
   
 
