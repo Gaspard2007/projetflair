@@ -1,7 +1,7 @@
 'use client'
 import { Button, ConfigProvider, Switch, Upload } from "antd";
 import { NextPage } from "next";
-import Draggable from 'react-draggable';
+
 const Profil: NextPage = () => {
     return (
         <div style={{width:'100%'}}>
@@ -202,7 +202,7 @@ const Profil: NextPage = () => {
                 <br />
                 <label>Image</label>
                 <br />
-              <Draggable/>
+  
             </div>
         </div>
     );
