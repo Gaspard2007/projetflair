@@ -38,3 +38,4 @@ const etapeBusinessBoosterLocation:NextPage=()=>{
         
     )
 }
+export default etapeBusinessBoosterLocation
